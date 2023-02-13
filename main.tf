@@ -4,8 +4,8 @@ provider "aws" {
 
 terraform {
     backend "s3" {
-        bucket = "viniciusalvessilva"
-        key = "terraform-test.tfstate"
+        bucket = "nomeBucket"
+        key = "Key.bucket"
         region = "us-east-1"
     }
 }
